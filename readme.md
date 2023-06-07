@@ -14,8 +14,9 @@ Quando l'utente clicca su ogni cella, la cella cliccata si colora di azzurro ed 
 3. Richiamare gli elementi dal DOM
 4. Mettere in ascolto il bottone
    - Al click del bottone
-     - vengono generate 100 celle in 10 righe da 10 celle ciascuna.
-     - In ogni cella, deve comparire il numero corrispondente, in ordine da 1 a 100;
-       - Al click sulla cella,
-         - stampare il numero della cella cliccata in console
-         - colorare la cella d'azzurro
+   - preparare il collegamento per l'html
+   - vengono generate 100 celle in 10 righe da 10 celle ciascuna.
+   - In ogni cella, deve comparire il numero corrispondente, in ordine da 1 a 100;
+     - Al click sulla cella,
+       - stampare il numero della cella cliccata in console
+       - colorare la cella d'azzurro
