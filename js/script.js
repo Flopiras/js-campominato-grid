@@ -28,8 +28,12 @@ button.addEventListener('click', () => {
     //preparare il collegamento per l'html
     grid.appendChild(cell);
 
-    //inserire il numero all'interno delle celle
-    //cell.innerText = [i];
+    //mettere la cella in ascolto
+    cell.addEventListener('click', function(){
+        //inserire il numero all'interno delle celle
+        cell.classList.add('selected');
+        cell.innerText = [i];
+    })
     }
     
     
