@@ -10,6 +10,7 @@ function createCell(){
     return cell;
 }
 
+
 //elementi del DOM
 const grid = document.getElementById('grid');
 const button = document.getElementById('button-play');
@@ -24,8 +25,11 @@ button.addEventListener('click', () => {
     for(let i = 0; i < cellAmount; i++){
         const cell = createCell();
 
-        //preparare il collegamento per l'html
+    //preparare il collegamento per l'html
     grid.appendChild(cell);
+
+    //inserire il numero all'interno delle celle
+    //cell.innerText = [i];
     }
     
     
